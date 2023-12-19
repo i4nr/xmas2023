@@ -1,0 +1,138 @@
+/*
+Author: Ian Weems
+Date: 11/8/2023
+File: styles.css
+*/
+
+/*
+Fonts:
+font-family: 'Aboreto', sans-serif;
+font-family: 'Philosopher', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Philosopher&display=swap');
+
+/* CSS RESET*/
+body, nav, header, main, footer, h1, div, img, ul, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Style rules for body, heads and images*/
+body {
+	background-color: #262626;
+	width: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Aboreto';
+}
+
+.hero-image {
+	background-image: url("../images/snow.jpeg");
+	height: 50em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.it {
+	max-width: 25%;
+	margin: 0 auto;
+	padding: 2em;
+	color: #fff;
+	text-align: center;
+	font-family: Philosopher;
+}
+
+h1{
+	font-size: 4em;
+	text-align: center;
+	width: 100%;
+	color: white;
+	height: auto;
+	text-shadow:#fff 1px 0 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Style rules for nav*/
+	
+nav {
+	background-color: #000;
+}
+
+nav, footer {
+	font-family: Philosopher;
+}
+
+nav a {
+	display: block;
+	color: #707070;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #858585;
+	text-shadow:#fff 1px 0 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
+
+/* styles for main*/
+main {
+	clear: both;
+	font-size: 1.2em;
+}
+
+/* styles for footers */
+
+footer {
+	background-color: #000;
+	padding: 3em;
+}
+
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	color: #fff;
+}
+
+footer a {
+}
+
+a {
+	text-decoration: underline;
+	color: #909090;
+}
+
+.fair-use {
+	font-size: 0.1em;
+}

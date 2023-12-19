@@ -1,0 +1,139 @@
+/* CSS Document */
+
+#presents {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 29% 29% 29%;
+	grid-template-areas:
+		"it1 it2 it3"
+		"it4 it5 it6"
+		"it7 it8 it9";
+	grid-gap: 2%;
+	justify-content: center;
+	padding: 4em 0;
+}
+
+#item1 {
+	grid-area: it1;
+	background-color: black;
+	background-image:url("../images/tea-8145457_1280.jpg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item1:hover {
+	 transform: scale(0.9);
+}
+
+#item2 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it2;
+	background-image:url("../images/C.jpg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item2:hover {
+	 transform: scale(0.9);
+}
+
+#item3 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it3;
+	background-image:url("../images/animal-7412994_1280.jpeg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item3:hover {
+	 transform: scale(0.9);
+}
+
+#item4 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it4;
+	background-image:url("../images/nissan-sx-848896_1280.jpg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item4:hover {
+	 transform: scale(0.9);
+}
+
+#item5 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it5;
+	background-image:url("../images/ai-generated-8284908_1280.jpeg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item5:hover {
+	 transform: scale(0.9);
+}
+
+#item6 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it6;
+	background-image:url("../images/bat-mobile-1073527_1280.jpeg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item6:hover {
+	 transform: scale(0.9);
+}
+
+#item7 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it7;
+	background-image:url("../images/ghost-2304469_1280.jpg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item7:hover {
+	 transform: scale(0.9);
+}
+
+#item8 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it8;
+	background-image:url("../images/coins-912278_1280.jpg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item8:hover {
+	 transform: scale(0.9);
+}
+
+#item9 {
+	background-color: black;
+	min-height: 400px;
+	grid-area: it9;
+	background-image:url("../images/terracotta-army-2967852_1280.jpg");
+	background-size: cover;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+}
+
+#item9:hover {
+	 transform: scale(0.9);
+}
